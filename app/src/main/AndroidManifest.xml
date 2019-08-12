@@ -19,6 +19,16 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".HandleReturn">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "cctexample://return” -->
+                <data android:scheme="cctexample"
+                      android:host="return" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

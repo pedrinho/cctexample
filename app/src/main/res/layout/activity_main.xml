@@ -16,5 +16,18 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+            android:layout_width="356dp"
+            android:layout_height="53dp"
+            android:inputType="textUri"
+            android:hint="Approval URL"
+            android:ems="10"
+            android:id="@+id/approval_url"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.386"
+            app:layout_constraintHorizontal_bias="0.49"/>
+            tools:layout_editor_absoluteY="280dp" tools:layout_editor_absoluteX="98dp" android:id="@+id/editText"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
